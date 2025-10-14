@@ -1,0 +1,2 @@
+<?php
+// Add 'admin_email' => env('ADMIN_EMAIL','admin@example.com') to config/app.php under return [ ... ]

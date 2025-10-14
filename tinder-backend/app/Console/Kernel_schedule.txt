@@ -1,0 +1,2 @@
+<?php
+// Add $schedule->command('people:notify-popular')->hourly(); to schedule() in app/Console/Kernel.php
