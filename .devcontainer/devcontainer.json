@@ -1,0 +1,23 @@
+{
+  "name": "Tinder Fullstack (Laravel + Expo)",
+  "image": "mcr.microsoft.com/vscode/devcontainers/php:8.2",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker",
+        "ms-phptools.php-pack",
+        "bmewburn.vscode-intelephense-client",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "msjsdiag.debugger-for-chrome",
+        "formulahendry.auto-close-tag"
+      ]
+    }
+  },
+  "forwardPorts": [8000, 19002, 19000],
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "remoteUser": "vscode"
+}
