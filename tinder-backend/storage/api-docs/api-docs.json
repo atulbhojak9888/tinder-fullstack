@@ -1,0 +1,36 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Tinder Clone API",
+        "description": "Minimal OpenAPI spec to allow generation",
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "/api/v1",
+            "description": "Local API"
+        }
+    ],
+    "paths": {
+        "/people": {
+            "get": {
+                "tags": [
+                    "People"
+                ],
+                "summary": "List people",
+                "operationId": "408d5c4eb7ed9eb03e47f6815cfddce4",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "People",
+            "description": "People"
+        }
+    ]
+}
